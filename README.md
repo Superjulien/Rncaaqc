@@ -39,18 +39,21 @@ Here are some example commands to run the script:
 ```
 $ bash rncaaqc.sh cowsay
 ```
-### Display a random ASCII art and quote using neofetch
+### Display a random ASCII art using neofetch
 ```
 $ bash rncaaqc.sh neofetch
 ```
-### Display a random cow and quote using cowsay, and then display another random cow and quote using cowsay
+### Display a random cow and quote using cowsay, and then display a random ASCII art using neofetch
 ```
-$ bash rncaaqc.sh cowsay cowsay
+$ bash rncaaqc.sh cowsay neofetch
 ```
 ## Compatibility
 
 This script should work on most Unix-like operating systems, including Linux and macOS. It requires the cowsay and neofetch programs to be installed.
-
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install cowsay neofetch
+```
 ## Support
 
 For support, email [Gmail: superjulien](mailto:contact.superjulien@gmail.com) | [Tutanota: superjulien](mailto:contacts.superjulien@tutanota.com).
