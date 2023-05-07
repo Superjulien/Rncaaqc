@@ -1,7 +1,8 @@
 # Random Quote and Cow ASCII Art Generator
 
 This is a Bash script that generates a random quote and a randomly selected ASCII art image or a cow image, depending on the user's input. It can display either one or two sets of image and quote, depending on the input arguments.
-Usage
+
+## Usage
 
 The script takes two optional command-line arguments:
 ```
