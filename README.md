@@ -59,6 +59,7 @@ sudo apt install cowsay neofetch
 ```
 
 ## Support
+
 For support email : 
 
 [![Gmail: superjulien](https://img.shields.io/badge/Gmail-Contact%20Me-red.svg)](mailto:contact.superjulien@gmail.com) [![Tutanota: superjulien](https://img.shields.io/badge/Tutanota-Contact%20Me-green.svg)](mailto:contacts.superjulien@tutanota.com)
