@@ -1,6 +1,6 @@
 # Random Quote and Cow ASCII Art Generator
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Superjulien/rncaaqc) [![Shell](https://img.shields.io/badge/Shell_Script-grey?&logo=gnu-bash&logoColor=white.svg)](https://en.wikipedia.org/wiki/Unix_shell)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/Superjulien/rncaaqc) [![Shell](https://img.shields.io/badge/Shell_Script-grey?&logo=gnu-bash&logoColor=white.svg)](https://en.wikipedia.org/wiki/Unix_shell)
 
 This is a Bash script that generates a random quote and a randomly selected ASCII art image or a cow image, depending on the user's input. It can display either one or two sets of image and quote, depending on the input arguments.
 
