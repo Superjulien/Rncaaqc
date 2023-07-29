@@ -1,5 +1,7 @@
 # Random Quote and Cow ASCII Art Generator
 
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Superjulien/rncaaqc) [![Shell](https://img.shields.io/badge/Shell_Script-grey?&logo=gnu-bash&logoColor=white.svg)](https://en.wikipedia.org/wiki/Unix_shell)
+
 This is a Bash script that generates a random quote and a randomly selected ASCII art image or a cow image, depending on the user's input. It can display either one or two sets of image and quote, depending on the input arguments.
 
 ## Usage
@@ -55,9 +57,11 @@ This script should work on most Unix-like operating systems, including Linux and
 sudo apt update && sudo apt upgrade -y
 sudo apt install cowsay neofetch
 ```
-## Support
 
-For support, email [Gmail: superjulien](mailto:contact.superjulien@gmail.com) | [Tutanota: superjulien](mailto:contacts.superjulien@tutanota.com).
+## Support
+For support email : 
+
+[![Gmail: superjulien](https://img.shields.io/badge/Gmail-Contact%20Me-red.svg)](mailto:contact.superjulien@gmail.com) [![Tutanota: superjulien](https://img.shields.io/badge/Tutanota-Contact%20Me-green.svg)](mailto:contacts.superjulien@tutanota.com)
 
 ## Documentation
 
