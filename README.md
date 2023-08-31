@@ -24,6 +24,66 @@ puff=~/quotation.txt
 ```
 Make sure that the path you specify is correct and that the quotations file is present at that location on your system.
 
+## Getting Started
+
+To use this script, follow these steps:
+
+1. **Clone the Repository**: Clone this repository to your local machine.
+
+   ```sh
+   git clone https://github.com/Superjulien/Rncaaqc.git
+   ```
+
+2. **Navigate to the Script Directory**: Move into the directory containing the script.
+
+   ```sh
+   cd path/to/your-repo/Rncaaqc/
+   ```
+
+3. **Modify the `quotation.txt` File**: Replace the contents of `quotation.txt` with your desired collection of quotations. Each quotation should be on a new line.
+
+4. **Make the Script Executable**: Ensure the script has executable permissions.
+
+   ```sh
+   chmod +x rncaaqc.sh
+   ```
+
+5. **Run the Script**: Execute the script using the following command:
+
+   ```sh
+   bash rncaaqc.sh cowsay neofetch
+   ```
+
+## Customizing Quotations
+
+To modify the script to use your own `quotation.txt` file, follow these steps:
+
+1. **Open the Script File**: Open the `rncaaqc.sh` file in a text editor of your choice, such as `nano`, `vim`, or even a graphical text editor like `Visual Studio Code`.
+
+2. **Find the File Path Definition Line**: Locate the line where the path to the `quotation.txt` file is defined. This line looks like this:
+   ```sh
+   puff=~/Folder/quotation.txt
+   ```
+   Replace `~/Folder/quotation.txt` with the absolute path to your own `quotation.txt` file. For example, if your `quotation.txt` file is located in the directory `/path/to/my/folder`, you should have:
+   ```sh
+   puff=/path/to/my/folder/quotation.txt
+   ```
+
+3. **Save the File**: After making the modifications, save the `rncaaqc.sh` file.
+
+4. **Run the Script**: Now, when you run the script, it will use the `quotation.txt` file you specified.
+
+Make sure that the `quotation.txt` file contains a list of quotes, with each quote on a new line. Here's an example of content for your `quotation.txt` file:
+
+```
+Life is beautiful.
+Learning is an endless journey.
+Happiness is found in the little things.
+Nothing is impossible, will makes everything.
+```
+
+Once you've followed these steps and modified the script according to your needs, you can run the script to generate random quotes from your own `quotation.txt` file.
+
 ## Image and Quote Sources
 
 The ASCII art images are stored in an array called neo, and the cow images are stored in an array called cow. Each image is named after the animal or object it depicts and has a .ascii file extension. The images were sourced from various websites and online repositories of ASCII art.
